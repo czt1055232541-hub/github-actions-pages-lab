@@ -1,0 +1,14 @@
+name: Intentional failure demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fail-on-purpose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain the lesson
+        run: echo "This workflow fails on purpose so you can practice reading logs."
+
+      - name: Fail intentionally
+        run: exit 1
