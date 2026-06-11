@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Actions Pages Lab</title>
+  <style>
+    :root {
+      font-family: "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+      color: #1f2937;
+      background: #f7f9fb;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+    }
+
+    main {
+      width: min(860px, 100%);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 40px;
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .panel {
+      border: 1px solid #d7dee8;
+      border-radius: 8px;
+      background: #fff;
+      padding: 28px;
+      box-shadow: 0 18px 45px rgba(31, 41, 55, 0.08);
+    }
+
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .steps li {
+      border-left: 4px solid #2f81f7;
+      padding: 10px 14px;
+      background: #f1f6ff;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>你好，GitHub！</h1>
+    <p>
+      这是一个用来学习 GitHub Actions 和 GitHub Pages 的练习页面。
+      当你看到它出现在 GitHub Pages 上，就说明自动部署成功了。
+    </p>
+    <ul class="steps">
+      <li>第一步：创建仓库并提交网页。</li>
+      <li>第二步：通过 Pull Request 修改这段文字。</li>
+      <li>第三步：用 Actions 自动发布网站。</li>
+    </ul>
+  </main>
+</body>
+</html>
